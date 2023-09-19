@@ -1,0 +1,11 @@
+import math
+n1=int(input("enter first number:"))
+n2=int(input("enter second number:"))
+n3=int(input("enter third number:"))
+n4=int(input("enter fourth number:"))
+n5=int(input("enter fifth number:"))
+gcd1=math.gcd(n1,n2)
+gcd2=math.gcd(n3,n4)
+gcd3=math.gcd(gcd1,gcd2)
+gcd4=math.gcd(gcd3,n5)
+print("the gcd of the numbers entered",gcd4)
